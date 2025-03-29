@@ -18,11 +18,11 @@ const MATCH_STATUS = {
   WON: 3,
 }
 
-const getCoord = (position) => {
+const getCoord = (position: number) => {
   return { x: Math.floor(position / 3), y: position % 3 };
 };
 
-const combinationExists = (cells, combination) => {
+const combinationExists = (cells: number[][], combination: number[]) => {
   const { x: x1, y: y1 } = getCoord(combination[0]);
   const { x: x2, y: y2 } = getCoord(combination[1]);
   const { x: x3, y: y3 } = getCoord(combination[2]);

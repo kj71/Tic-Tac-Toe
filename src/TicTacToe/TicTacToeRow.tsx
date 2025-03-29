@@ -1,7 +1,7 @@
 import React from "react";
 import TicTacToeCell from "./TicTacToeCell";
 
-const TicTacToeRow = (props) => {
+const TicTacToeRow = (props: any) => {
   return (
     <div id="tictactoeRow">
       {Array.from({ length: 3 }).map((item, index) => (

@@ -3,9 +3,18 @@ import "./styles.css";
 
 const PLAYER_MARKS = ["", "\u2715", "\u25ef"];
 
-const TicTacToeCell = (props) => {
+interface IProps {
+  cellRow: number;
+  cellCol: number;
+  player: number;
+  cells: number[][];
+  setCells: any;
+  matchEnded: boolean;
+}
+
+const TicTacToeCell = (props: IProps) => {
   const { cellRow, cellCol, player, cells, setCells, matchEnded } = props;
-  const onClick = useCallback((e) => {
+  const onClick = useCallback((e: any) => {
     if (matchEnded || cells[cellRow][cellCol] !== 0) {
       e.stopPropagation();
       return;
