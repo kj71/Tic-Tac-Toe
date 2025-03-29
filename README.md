@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-A 3X3 Tic Toe Game created in React
+A 3X3 Tic Tac Toe Game created in React
