@@ -1,0 +1,21 @@
+#tictactoeCell {
+  height: 100px;
+  width: 100px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#tictactoeRow {
+  display: flex;
+  flex-direction: row;
+}
+
+#tictactoe {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
