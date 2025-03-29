@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Created with CodeSandbox
+A 3X3 Tic Toe Game created in React
